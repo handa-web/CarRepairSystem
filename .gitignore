@@ -1,0 +1,20 @@
+# --- 隠しファイル・OS生成ファイル ---
+.DS_Store
+.user.ini
+
+# --- サーバー設定・クローラー設定 ---
+.htaccess
+robots.txt
+
+# --- 設定ファイルフォルダ ---
+# DB接続情報などが含まれるため全て除外
+config/*
+
+# --- 画像ファイル ---
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
