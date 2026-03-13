@@ -51,9 +51,7 @@ $(function() {
 			pop_load.fadeOut();
 
 		}).
-		fail(function(jqXHR, textStatus, errorThrown) {
-			console.error('AJAX request failed:', textStatus, errorThrown);
-			console.error('Response:', jqXHR.responseText);
+		fail(function() {
 			client_form.children('.war_text').text('送信に失敗しました。').show();
 			pop_load.fadeOut();
 		});
